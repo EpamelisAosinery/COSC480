@@ -136,7 +136,9 @@
       <workItem from="1711144057831" duration="475000" />
       <workItem from="1711211476562" duration="7343000" />
       <workItem from="1711219131633" duration="7733000" />
-      <workItem from="1712175269826" duration="1383000" />
+      <workItem from="1712175269826" duration="1991000" />
+      <workItem from="1712232864719" duration="16000" />
+      <workItem from="1712235836921" duration="665000" />
     </task>
     <servers />
   </component>
@@ -154,7 +156,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/main" />
+                        <option value="asem-feature" />
                       </list>
                     </value>
                   </entry>

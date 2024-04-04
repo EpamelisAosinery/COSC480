@@ -36,9 +36,6 @@
             <Button fx:id="btnExist" layoutX="1150.0" layoutY="15.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="41.0" style="-fx-background-color: red;" />
             <FontAwesomeIconView fill="WHITE" glyphName="CLOSE" layoutX="1154.0" layoutY="40.0" size="25" textAlignment="CENTER" wrappingWidth="32.64285659790039" />
          </children>
-         <effect>
-            <DropShadow height="91.82" radius="44.825" width="89.48" />
-         </effect>
       </Pane>
    </top>
    <left>
@@ -62,7 +59,7 @@
             </ImageView>
             <VBox layoutY="174.0" prefHeight="459.0" prefWidth="230.0" spacing="10.0" style="-fx-background-color: #522888;">
                <children>
-                  <Button fx:id="btnDashboard" alignment="BASELINE_LEFT" mnemonicParsing="false" onAction="#homePanel" prefHeight="53.0" prefWidth="220.0" style="-fx-background-color: transparent;" styleClass="sideMenuItem" text="Home">
+                  <Button fx:id="btnDashboard" alignment="BASELINE_LEFT" mnemonicParsing="false" onAction="#homePanel" prefHeight="53.0" prefWidth="220.0" style="-fx-background-color: transparent;" styleClass="sideMenuItem" text="Home" textFill="WHITE">
                      <font>
                         <Font size="18.0" />
                      </font>
@@ -85,29 +82,8 @@
                               </LinearGradient>
                            </fill></FontAwesomeIconView>
                      </graphic>
-                     <textFill>
-                        <LinearGradient cycleMethod="REFLECT" endX="0.44412878787878785" endY="0.4119318543058455" startX="0.28503787878787884" startY="0.07102269837350544">
-                           <stops>
-                              <Stop>
-                                 <color>
-                                    <Color red="0.8947368264198303" green="0.27173489332199097" blue="0.7182196378707886" />
-                                 </color>
-                              </Stop>
-                              <Stop offset="0.007680491551459294">
-                                 <color>
-                                    <Color red="0.8947368264198303" green="0.27173489332199097" blue="0.7182196378707886" />
-                                 </color>
-                              </Stop>
-                              <Stop offset="1.0">
-                                 <color>
-                                    <Color red="1.0" green="0.5799999833106995" blue="0.9029654860496521" />
-                                 </color>
-                              </Stop>
-                           </stops>
-                        </LinearGradient>
-                     </textFill>
                   </Button>
-                  <Button fx:id="btnPage2" alignment="BASELINE_LEFT" mnemonicParsing="false" onAction="#page2Panel" prefHeight="53.0" prefWidth="220.0" style="-fx-background-color: transparent;" styleClass="sideMenuItem" text="Page 2">
+                  <Button fx:id="btnPage2" alignment="BASELINE_LEFT" mnemonicParsing="false" onAction="#page2Panel" prefHeight="53.0" prefWidth="220.0" style="-fx-background-color: transparent;" styleClass="sideMenuItem" text="Page 2" textFill="WHITE">
                      <font>
                         <Font size="18.0" />
                      </font>
@@ -130,24 +106,8 @@
                               </LinearGradient>
                            </fill></FontAwesomeIconView>
                      </graphic>
-                     <textFill>
-                        <LinearGradient cycleMethod="REFLECT" endX="0.6789772727272727" endY="0.6022727227572239" startX="0.46212121844291687" startY="0.41287877342917706">
-                           <stops>
-                              <Stop>
-                                 <color>
-                                    <Color red="1.0" blue="0.800000011920929" />
-                                 </color>
-                              </Stop>
-                              <Stop offset="1.0">
-                                 <color>
-                                    <Color red="1.0" green="0.7888888716697693" blue="0.9577777981758118" />
-                                 </color>
-                              </Stop>
-                           </stops>
-                        </LinearGradient>
-                     </textFill>
                   </Button>
-                  <Button fx:id="btnPage3" alignment="BASELINE_LEFT" mnemonicParsing="false" onAction="#page3Panel" prefHeight="53.0" prefWidth="220.0" style="-fx-background-color: transparent;" styleClass="sideMenuItem" text="Page 3">
+                  <Button fx:id="btnPage3" alignment="BASELINE_LEFT" mnemonicParsing="false" onAction="#page3Panel" prefHeight="53.0" prefWidth="220.0" style="-fx-background-color: transparent;" styleClass="sideMenuItem" text="Page 3" textFill="WHITE">
                      <font>
                         <Font size="18.0" />
                      </font>
@@ -173,29 +133,8 @@
                      <opaqueInsets>
                         <Insets />
                      </opaqueInsets>
-                     <textFill>
-                        <LinearGradient cycleMethod="REFLECT" endX="0.44412878787878785" endY="0.4119318543058455" startX="0.28503787878787884" startY="0.07102269837350544">
-                           <stops>
-                              <Stop>
-                                 <color>
-                                    <Color red="0.8947368264198303" green="0.27173489332199097" blue="0.7182196378707886" />
-                                 </color>
-                              </Stop>
-                              <Stop offset="0.007680491551459294">
-                                 <color>
-                                    <Color red="0.8947368264198303" green="0.27173489332199097" blue="0.7182196378707886" />
-                                 </color>
-                              </Stop>
-                              <Stop offset="1.0">
-                                 <color>
-                                    <Color red="1.0" green="0.5799999833106995" blue="0.9029654860496521" />
-                                 </color>
-                              </Stop>
-                           </stops>
-                        </LinearGradient>
-                     </textFill>
                   </Button>
-                  <Button fx:id="btnPage4" alignment="BASELINE_LEFT" layoutX="10.0" layoutY="138.0" mnemonicParsing="false" onAction="#page4Panel" prefHeight="53.0" prefWidth="220.0" style="-fx-background-color: transparent;" styleClass="sideMenuItem" text="Page 4">
+                  <Button fx:id="btnPage4" alignment="BASELINE_LEFT" layoutX="10.0" layoutY="138.0" mnemonicParsing="false" onAction="#page4Panel" prefHeight="53.0" prefWidth="220.0" style="-fx-background-color: transparent;" styleClass="sideMenuItem" text="Page 4" textFill="WHITE">
                      <font>
                         <Font size="18.0" />
                      </font>
@@ -221,24 +160,8 @@
                      <opaqueInsets>
                         <Insets />
                      </opaqueInsets>
-                     <textFill>
-                        <LinearGradient cycleMethod="REFLECT" endX="0.6789772727272727" endY="0.6022727227572239" startX="0.46212121844291687" startY="0.41287877342917706">
-                           <stops>
-                              <Stop>
-                                 <color>
-                                    <Color red="1.0" blue="0.800000011920929" />
-                                 </color>
-                              </Stop>
-                              <Stop offset="1.0">
-                                 <color>
-                                    <Color red="1.0" green="0.7888888716697693" blue="0.9577777981758118" />
-                                 </color>
-                              </Stop>
-                           </stops>
-                        </LinearGradient>
-                     </textFill>
                   </Button>
-                  <Button fx:id="btnPage5" alignment="BASELINE_LEFT" layoutX="10.0" layoutY="202.0" mnemonicParsing="false" onAction="#page5Panel" prefHeight="53.0" prefWidth="220.0" style="-fx-background-color: transparent;" styleClass="sideMenuItem" text="Page 5">
+                  <Button fx:id="btnPage5" alignment="BASELINE_LEFT" layoutX="10.0" layoutY="202.0" mnemonicParsing="false" onAction="#page5Panel" prefHeight="53.0" prefWidth="220.0" style="-fx-background-color: transparent;" styleClass="sideMenuItem" text="Page 5" textFill="WHITE">
                      <font>
                         <Font size="18.0" />
                      </font>
@@ -264,29 +187,8 @@
                      <opaqueInsets>
                         <Insets />
                      </opaqueInsets>
-                     <textFill>
-                        <LinearGradient cycleMethod="REFLECT" endX="0.44412878787878785" endY="0.4119318543058455" startX="0.28503787878787884" startY="0.07102269837350544">
-                           <stops>
-                              <Stop>
-                                 <color>
-                                    <Color red="0.8947368264198303" green="0.27173489332199097" blue="0.7182196378707886" />
-                                 </color>
-                              </Stop>
-                              <Stop offset="0.007680491551459294">
-                                 <color>
-                                    <Color red="0.8947368264198303" green="0.27173489332199097" blue="0.7182196378707886" />
-                                 </color>
-                              </Stop>
-                              <Stop offset="1.0">
-                                 <color>
-                                    <Color red="1.0" green="0.5799999833106995" blue="0.9029654860496521" />
-                                 </color>
-                              </Stop>
-                           </stops>
-                        </LinearGradient>
-                     </textFill>
                   </Button>
-                  <Button fx:id="btnPage6" alignment="BASELINE_LEFT" layoutX="10.0" layoutY="266.0" mnemonicParsing="false" onAction="#page6Panel" prefHeight="53.0" prefWidth="220.0" style="-fx-background-color: transparent;" styleClass="sideMenuItem" text="Page 6">
+                  <Button fx:id="btnPage6" alignment="BASELINE_LEFT" layoutX="10.0" layoutY="266.0" mnemonicParsing="false" onAction="#page6Panel" prefHeight="53.0" prefWidth="220.0" style="-fx-background-color: transparent;" styleClass="sideMenuItem" text="Page 6" textFill="WHITE">
                      <font>
                         <Font size="18.0" />
                      </font>
@@ -312,24 +214,8 @@
                      <opaqueInsets>
                         <Insets />
                      </opaqueInsets>
-                     <textFill>
-                        <LinearGradient cycleMethod="REFLECT" endX="0.6789772727272727" endY="0.6022727227572239" startX="0.46212121844291687" startY="0.41287877342917706">
-                           <stops>
-                              <Stop>
-                                 <color>
-                                    <Color red="1.0" blue="0.800000011920929" />
-                                 </color>
-                              </Stop>
-                              <Stop offset="1.0">
-                                 <color>
-                                    <Color red="1.0" green="0.7888888716697693" blue="0.9577777981758118" />
-                                 </color>
-                              </Stop>
-                           </stops>
-                        </LinearGradient>
-                     </textFill>
                   </Button>
-                  <Button fx:id="btnPage7" alignment="BASELINE_LEFT" layoutX="10.0" layoutY="304.0" mnemonicParsing="false" onAction="#page7Panel" prefHeight="53.0" prefWidth="220.0" style="-fx-background-color: transparent;" styleClass="sideMenuItem" text="Page 7">
+                  <Button fx:id="btnPage7" alignment="BASELINE_LEFT" layoutX="10.0" layoutY="304.0" mnemonicParsing="false" onAction="#page7Panel" prefHeight="53.0" prefWidth="220.0" style="-fx-background-color: transparent;" styleClass="sideMenuItem" text="Page 7" textFill="WHITE">
                      <font>
                         <Font size="18.0" />
                      </font>
@@ -355,24 +241,8 @@
                      <opaqueInsets>
                         <Insets />
                      </opaqueInsets>
-                     <textFill>
-                        <LinearGradient cycleMethod="REFLECT" endX="0.6789772727272727" endY="0.6022727227572239" startX="0.46212121844291687" startY="0.41287877342917706">
-                           <stops>
-                              <Stop>
-                                 <color>
-                                    <Color red="1.0" blue="0.800000011920929" />
-                                 </color>
-                              </Stop>
-                              <Stop offset="1.0">
-                                 <color>
-                                    <Color red="1.0" green="0.7888888716697693" blue="0.9577777981758118" />
-                                 </color>
-                              </Stop>
-                           </stops>
-                        </LinearGradient>
-                     </textFill>
                   </Button>
-                  <Button fx:id="btnPage8" alignment="BASELINE_LEFT" layoutX="10.0" layoutY="312.0" mnemonicParsing="false" onAction="#page8Panel" prefHeight="53.0" prefWidth="220.0" style="-fx-background-color: transparent;" styleClass="sideMenuItem" text="Page 8">
+                  <Button fx:id="btnPage8" alignment="BASELINE_LEFT" layoutX="10.0" layoutY="312.0" mnemonicParsing="false" onAction="#page8Panel" prefHeight="53.0" prefWidth="220.0" style="-fx-background-color: transparent;" styleClass="sideMenuItem" text="Page 8" textFill="WHITE">
                      <font>
                         <Font size="18.0" />
                      </font>
@@ -398,24 +268,8 @@
                      <opaqueInsets>
                         <Insets />
                      </opaqueInsets>
-                     <textFill>
-                        <LinearGradient cycleMethod="REFLECT" endX="0.6789772727272727" endY="0.6022727227572239" startX="0.46212121844291687" startY="0.41287877342917706">
-                           <stops>
-                              <Stop>
-                                 <color>
-                                    <Color red="1.0" blue="0.800000011920929" />
-                                 </color>
-                              </Stop>
-                              <Stop offset="1.0">
-                                 <color>
-                                    <Color red="1.0" green="0.7888888716697693" blue="0.9577777981758118" />
-                                 </color>
-                              </Stop>
-                           </stops>
-                        </LinearGradient>
-                     </textFill>
                   </Button>
-                  <Button fx:id="btnPage9" alignment="BASELINE_LEFT" mnemonicParsing="false" onAction="#page9Panel" prefHeight="53.0" prefWidth="220.0" style="-fx-background-color: transparent;" styleClass="sideMenuItem" text="Page 9">
+                  <Button fx:id="btnPage9" alignment="BASELINE_LEFT" mnemonicParsing="false" onAction="#page9Panel" prefHeight="53.0" prefWidth="220.0" style="-fx-background-color: transparent;" styleClass="sideMenuItem" text="Page 9" textFill="WHITE">
                      <font>
                         <Font size="18.0" />
                      </font>
@@ -441,24 +295,8 @@
                      <opaqueInsets>
                         <Insets />
                      </opaqueInsets>
-                     <textFill>
-                        <LinearGradient cycleMethod="REFLECT" endX="0.6789772727272727" endY="0.6022727227572239" startX="0.46212121844291687" startY="0.41287877342917706">
-                           <stops>
-                              <Stop>
-                                 <color>
-                                    <Color red="1.0" blue="0.800000011920929" />
-                                 </color>
-                              </Stop>
-                              <Stop offset="1.0">
-                                 <color>
-                                    <Color red="1.0" green="0.7888888716697693" blue="0.9577777981758118" />
-                                 </color>
-                              </Stop>
-                           </stops>
-                        </LinearGradient>
-                     </textFill>
                   </Button>
-                  <Button fx:id="btnPage10" alignment="BASELINE_LEFT" mnemonicParsing="false" onAction="#page10Panel" prefHeight="53.0" prefWidth="220.0" style="-fx-background-color: transparent;" styleClass="sideMenuItem" text="Page 10">
+                  <Button fx:id="btnPage10" alignment="BASELINE_LEFT" mnemonicParsing="false" onAction="#page10Panel" prefHeight="53.0" prefWidth="220.0" style="-fx-background-color: transparent;" styleClass="sideMenuItem" text="Page 10" textFill="WHITE">
                      <font>
                         <Font size="18.0" />
                      </font>
@@ -484,29 +322,8 @@
                      <opaqueInsets>
                         <Insets />
                      </opaqueInsets>
-                     <textFill>
-                        <LinearGradient cycleMethod="REFLECT" endX="0.44412878787878785" endY="0.4119318543058455" startX="0.28503787878787884" startY="0.07102269837350544">
-                           <stops>
-                              <Stop>
-                                 <color>
-                                    <Color red="0.8947368264198303" green="0.27173489332199097" blue="0.7182196378707886" />
-                                 </color>
-                              </Stop>
-                              <Stop offset="0.007680491551459294">
-                                 <color>
-                                    <Color red="0.8947368264198303" green="0.27173489332199097" blue="0.7182196378707886" />
-                                 </color>
-                              </Stop>
-                              <Stop offset="1.0">
-                                 <color>
-                                    <Color red="1.0" green="0.5799999833106995" blue="0.9029654860496521" />
-                                 </color>
-                              </Stop>
-                           </stops>
-                        </LinearGradient>
-                     </textFill>
                   </Button>
-                  <Button fx:id="btnPage11" alignment="BASELINE_LEFT" mnemonicParsing="false" onAction="#page11Panel" prefHeight="115.0" prefWidth="220.0" style="-fx-background-color: transparent;" styleClass="sideMenuItem" text="Page 11">
+                  <Button fx:id="btnPage11" alignment="BASELINE_LEFT" mnemonicParsing="false" onAction="#page11Panel" prefHeight="115.0" prefWidth="220.0" style="-fx-background-color: transparent;" styleClass="sideMenuItem" text="Page 11" textFill="WHITE">
                      <font>
                         <Font size="18.0" />
                      </font>
@@ -532,29 +349,10 @@
                      <opaqueInsets>
                         <Insets />
                      </opaqueInsets>
-                     <textFill>
-                        <LinearGradient cycleMethod="REFLECT" endX="0.6789772727272727" endY="0.6022727227572239" startX="0.46212121844291687" startY="0.41287877342917706">
-                           <stops>
-                              <Stop>
-                                 <color>
-                                    <Color red="1.0" blue="0.800000011920929" />
-                                 </color>
-                              </Stop>
-                              <Stop offset="1.0">
-                                 <color>
-                                    <Color red="1.0" green="0.7888888716697693" blue="0.9577777981758118" />
-                                 </color>
-                              </Stop>
-                           </stops>
-                        </LinearGradient>
-                     </textFill>
                   </Button>
                </children>
             </VBox>
          </children>
-         <effect>
-            <DropShadow height="0.0" radius="22.295" width="91.18" />
-         </effect>
       </Pane>
    </left>
    <center>
