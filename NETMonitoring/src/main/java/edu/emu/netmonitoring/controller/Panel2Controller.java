@@ -3,8 +3,6 @@ package edu.emu.netmonitoring.controller;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
-import javafx.scene.control.Button;
-import javafx.scene.control.TableCell;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
 import javafx.scene.control.cell.PropertyValueFactory;
@@ -43,6 +41,7 @@ public class Panel2Controller {
         public String getInterfaceName() {
             return cInterfaceName;
         }
+
         public String getDisplayName() {
             return cDisplayName;
         }
