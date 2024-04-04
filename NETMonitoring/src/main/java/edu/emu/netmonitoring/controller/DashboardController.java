@@ -96,4 +96,9 @@ public class DashboardController implements Initializable {
         panelsContainer.getChildren().removeAll();
         panelsContainer.getChildren().setAll(fxml);
     }
+    public void ExportPanel(ActionEvent actionEvent) throws IOException{
+        Parent fxml = FXMLLoader.load(Objects.requireNonNull(getClass().getResource("/edu/emu/netmonitoring/fxml/Export.fxml")));
+        panelsContainer.getChildren().removeAll();
+        panelsContainer.getChildren().setAll(fxml);
+    }
 }

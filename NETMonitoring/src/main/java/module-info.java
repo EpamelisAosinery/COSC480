@@ -9,6 +9,7 @@ module edu.emu.netmonitoring {
     requires org.kordamp.ikonli.javafx;
     requires org.kordamp.bootstrapfx.core;
     requires java.logging;
+    requires pcap4j.core;
 
     opens edu.emu.netmonitoring to javafx.fxml;
     exports edu.emu.netmonitoring;

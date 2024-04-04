@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.emu.netmonitoring.controller.Export">
+    <children>
+        <Label layoutX="200.0" layoutY="14.0" text="Export Data">
+            <font>
+                <Font name="System Bold" size="24" />
+            </font>
+        </Label>
+        <!-- Updated Button with fx:id and onAction for Select the NIC -->
+        <Button fx:id="selectNicButton" layoutX="14.0" layoutY="68.0" mnemonicParsing="false" onAction="#selectNIC" prefHeight="26.0" prefWidth="207.0" text="Select the NIC" />
+        <!-- Updated Button with fx:id and onAction for Save as .pcap File -->
+        <Button fx:id="saveAsPcapButton" layoutX="230.0" layoutY="68.0" mnemonicParsing="false" onAction="#saveAsPcap" prefHeight="26.0" prefWidth="207.0" text="Save as .pcap File" />
+        <!-- Updated Button with fx:id and onAction for Stop Capturing -->
+<!--        <Button fx:id="stopCapturingButton" layoutX="446.0" layoutY="68.0" mnemonicParsing="false" onAction="#stopCapturing" prefHeight="26.0" prefWidth="151.0" text="Stop Capturing" />-->
+    </children>
+</Pane>
