@@ -3,6 +3,8 @@ package edu.emu.netmonitoring.controller;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
+import javafx.scene.control.Button;
+import javafx.scene.control.TableCell;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
 import javafx.scene.control.cell.PropertyValueFactory;
@@ -19,6 +21,7 @@ public class Panel2Controller {
         cDisplayName.setCellValueFactory(new PropertyValueFactory<>("displayName"));
         cIPAddress.setCellValueFactory(new PropertyValueFactory<>("ipAddress"));
         cStatus.setCellValueFactory(new PropertyValueFactory<>("status"));
+        cIPType.setCellValueFactory(new PropertyValueFactory<>("IPType"));
 
         tableView.setItems(getNetworkInterfaces());
     }
@@ -52,13 +55,26 @@ public class Panel2Controller {
             return cStatus;
         }
 
+        public String getIPType() {
+
+            if (getIpAddress().contains(":")) {
+
+                return "IPv6";
+            } else if (getIpAddress().contains(".")) {
+                return "IPv4";
+            } else {
+                return "Unknown";
+            }
+
+        }
+
 
     }
 
     @FXML
     private TableView<NetworkInterfaceInfo> tableView;
     @FXML
-    private TableColumn<NetworkInterfaceInfo, String> cInterfaceName, cDisplayName, cIPAddress, cStatus;
+    private TableColumn<NetworkInterfaceInfo, String> cInterfaceName, cDisplayName, cIPAddress, cStatus, cIPType, cAction;
 
     private ObservableList<NetworkInterfaceInfo> getNetworkInterfaces() {
 
