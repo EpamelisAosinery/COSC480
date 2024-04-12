@@ -40,3 +40,4 @@ replay_pid*
 *.iml
 *.ipr
 
+NETMonitoring/.idea/workspace.xml
