@@ -3,26 +3,62 @@ package edu.emu.netmonitoring.controller;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
+import javafx.scene.control.Button;
+import javafx.scene.control.TableCell;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
 import javafx.scene.control.cell.PropertyValueFactory;
+import javafx.stage.FileChooser;
+import org.pcap4j.core.*;
 
+import java.io.File;
+import java.io.IOException;
 import java.net.InetAddress;
 import java.net.NetworkInterface;
 import java.net.SocketException;
+import java.util.Date;
 import java.util.Enumeration;
 
 public class Panel2Controller {
 
     public void initialize() {
-        cInterfaceName.setCellValueFactory(new PropertyValueFactory<>("interfaceName"));
-        cDisplayName.setCellValueFactory(new PropertyValueFactory<>("displayName"));
-        cIPAddress.setCellValueFactory(new PropertyValueFactory<>("ipAddress"));
-        cStatus.setCellValueFactory(new PropertyValueFactory<>("status"));
-        cIPType.setCellValueFactory(new PropertyValueFactory<>("IPType"));
+        this.cInterfaceName.setCellValueFactory(new PropertyValueFactory<>("interfaceName"));
+        this.cDisplayName.setCellValueFactory(new PropertyValueFactory<>("displayName"));
+        this.cIPAddress.setCellValueFactory(new PropertyValueFactory<>("ipAddress"));
+        this.cStatus.setCellValueFactory(new PropertyValueFactory<>("status"));
+        this.cIPType.setCellValueFactory(new PropertyValueFactory<>("IPType"));
 
-        tableView.setItems(getNetworkInterfaces());
+        this.cAction.setCellFactory(col -> {
+            Button exportButton = new Button("Export");
+            TableCell<NetworkInterfaceInfo, String> cell = new TableCell<NetworkInterfaceInfo, String>() {
+                @Override
+                protected void updateItem(String item, boolean empty) {
+                    super.updateItem(item, empty);
+                    if (empty) {
+                        setGraphic(null);
+                    } else {
+                        setGraphic(exportButton);
+                    }
+                }
+            };
+
+            exportButton.setOnAction(event -> {
+                NetworkInterfaceInfo info = cell.getTableRow().getItem();
+                if (info != null) {
+                    exportAction(info);
+                }
+            });
+
+            return cell;
+        });
+
+        this.tableView.setItems(this.getNetworkInterfaces());
     }
+
+    private void exportAction(NetworkInterfaceInfo info) {
+        System.out.println("Button Pressed");
+    }
+
 
     public static class NetworkInterfaceInfo {
 
