@@ -1,27 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
-<?import javafx.scene.text.*?>
-
-<Pane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.emu.netmonitoring.controller.Panel2Controller">
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<Pane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea"
+      xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.emu.netmonitoring.controller.Panel2Controller">
     <children>
         <Label text="Local">
             <font>
-                <Font name="System Bold" size="40" />
+                <Font name="System Bold" size="40"/>
             </font>
         </Label>
         <TableView fx:id="tableView" layoutX="4.0" layoutY="92.0" prefHeight="241.0" prefWidth="589.0">
             <columns>
 
-                <TableColumn fx:id="cInterfaceName" prefWidth="75.0" text="Interface Name" />
-                <TableColumn fx:id="cDisplayName" prefWidth="75.0" text="Display Name" />
-                <TableColumn fx:id="cIPAddress" prefWidth="75.0" text="IP Address" />
-                <TableColumn fx:id="cIPType" prefWidth="75.0" text="IP Type" />
-                <TableColumn fx:id="cStatus" prefWidth="75.0" text="Status" />
-                <TableColumn fx:id="cSourcePort" prefWidth="75.0" text="Source Port" />
-                <TableColumn fx:id="cDestinationPort" prefWidth="75.0" text="Destination Port" />
-                <TableColumn fx:id="cAction" prefWidth="108.20001220703125" text="Action" />
+                <TableColumn fx:id="cInterfaceName" prefWidth="75.0" text="Interface Name"/>
+                <TableColumn fx:id="cDisplayName" prefWidth="75.0" text="Display Name"/>
+                <TableColumn fx:id="cIPAddress" prefWidth="75.0" text="IP Address"/>
+                <TableColumn fx:id="cIPType" prefWidth="75.0" text="IP Type"/>
+                <TableColumn fx:id="cStatus" prefWidth="75.0" text="Status"/>
+                <TableColumn fx:id="cAction" prefWidth="75.0" text="Action"/>
             </columns>
         </TableView>
     </children>
