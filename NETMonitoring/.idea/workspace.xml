@@ -4,17 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1d276b81-d866-444c-b0c4-77fdb2811f90" name="Changes" comment="Forgot to tag the commit&#10;&#10;Made it wider&#10;&#10;Addresses Issue #7">
+    <list default="true" id="1d276b81-d866-444c-b0c4-77fdb2811f90" name="Changes" comment="UPDATED">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/edu/emu/netmonitoring/fxml/Panel2.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/edu/emu/netmonitoring/fxml/Panel2.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/emu/netmonitoring/NetMonitoringApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/emu/netmonitoring/NetMonitoringApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/emu/netmonitoring/controller/DashboardController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/emu/netmonitoring/controller/DashboardController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/emu/netmonitoring/controller/HomePanelController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/emu/netmonitoring/controller/HomePanelController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/emu/netmonitoring/controller/Panel2Controller$NetworkInterfaceInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/emu/netmonitoring/controller/Panel2Controller$NetworkInterfaceInfo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/emu/netmonitoring/controller/Panel2Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/emu/netmonitoring/controller/Panel2Controller.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/emu/netmonitoring/controller/Panel3Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/emu/netmonitoring/controller/Panel3Controller.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/emu/netmonitoring/controller/WelcomeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/emu/netmonitoring/controller/WelcomeController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/emu/netmonitoring/fxml/Panel2.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/emu/netmonitoring/fxml/Panel2.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/emu/netmonitoring/controller/Panel2Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/emu/netmonitoring/controller/Panel2Controller.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -260,7 +252,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="A basic attempt to set up a table and display the information of a connected network?" />
     <MESSAGE value="Forgot to tag the commit&#10;&#10;Made it wider&#10;&#10;Addresses Issue #7" />
-    <option name="LAST_COMMIT_MESSAGE" value="Forgot to tag the commit&#10;&#10;Made it wider&#10;&#10;Addresses Issue #7" />
+    <MESSAGE value="UPDATED" />
+    <option name="LAST_COMMIT_MESSAGE" value="UPDATED" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
